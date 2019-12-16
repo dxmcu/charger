@@ -1,0 +1,6 @@
+# 基于python2.7环境
+1、将文件copy到工控
+2、登陆工控 ssh manager@192.168.50.51
+3、解压charge.rar
+    tar x charge.rar,  如果没有安装tar工具，则用一下命令安装sudo apt install rar
+4、进入charge目录，执行python test_charge.py
